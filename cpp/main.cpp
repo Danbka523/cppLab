@@ -10,5 +10,4 @@ int main() {
 	assert(IsLeapYear(2020));
 	assert(!IsLeapYear(2023));
 
-	cout << SecondsInMinute();
 }

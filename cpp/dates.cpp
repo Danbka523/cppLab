@@ -21,3 +21,12 @@ int DaysInYear(int year) {
 		return 366;
 	else return 365;
 }
+
+int DaysInYearRange(int year1, int year2) {
+	int res = 0;
+	for (int i = year1; i <=year2; i++)
+	{
+		res += DaysInYear(i);
+	}
+	return res;
+}

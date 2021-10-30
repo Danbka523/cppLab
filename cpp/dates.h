@@ -12,4 +12,7 @@ int DaysInYear(int year);
 
 //сколько дней между годами
 int DaysInYearRange(int year1, int year2);
+
+//сколько секунд в данном количестве часах
+int SecondsInHours(int hours);
 #endif // !DATES

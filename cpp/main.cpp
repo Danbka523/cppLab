@@ -19,4 +19,7 @@ int main() {
 
 	assert(DaysInYearRange(2021, 2021) == 365);
 	assert(DaysInYearRange(2020, 2021) == 365+366);
+
+	assert(SecondsInHours(1) == 3600);
+	assert(SecondsInHours(2) == 3600);
 }

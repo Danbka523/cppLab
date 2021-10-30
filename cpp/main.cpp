@@ -14,4 +14,6 @@ int main() {
 
 
 	assert(LaterInYear(31, 2) == 31);
+	assert(DaysInYear(2021) == 365);
+	assert(DaysInYear(2020) == 366);
 }

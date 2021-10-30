@@ -15,3 +15,18 @@ int LaterInYear(int day1, int day2) {
 	else
 		return day1;
 }
+
+int DaysInYear(int year) {
+	if (IsLeapYear(year))
+		return 366;
+	else return 365;
+}
+
+int DaysInYearRange(int year1, int year2) {
+	int res = 0;
+	for (int i = year1; i <=year2; i++)
+	{
+		res += DaysInYear(i);
+	}
+	return res;
+}
